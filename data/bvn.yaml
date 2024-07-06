@@ -1,0 +1,15 @@
+path: datasets  # dataset root dir
+train: images/train  # train images (relative to 'path') 118287 images
+val: images/train  # val images (relative to 'path') 5000 images
+test:   # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+names:
+  0: transverse crack
+  1: longitudinal crack
+  2: massive crack
+  3: fissured
+  4: pothole
+  5: repairing web cracks
+  6: patch
+  7: repair of potholes
